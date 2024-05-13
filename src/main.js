@@ -13,6 +13,12 @@ const vuetify = createVuetify({
   theme: {
     defaultTheme: 'light',
   },
+  display: {
+    mobileBreakpoint: 'sm',
+    thresholds: {
+      sm: 720,
+    },
+  },
 })
 
 const Vue = createApp(App)
