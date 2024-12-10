@@ -32,8 +32,6 @@
 
   const { newDrawer, newRail } = storeToRefs(useAppStore())
   const text = ref()
-  onMounted(() => {
-    // console.log(text.value)
-  })
+  onMounted(() => {})
 </script>
 
